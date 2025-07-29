@@ -38,8 +38,7 @@ def extract_frames_from_videos(input_dir, output_dir, fps=16):
                     print(f" Extracted frames from {video_file}")
 
 def main():
-    #sets = ["train", "val", "test"]
-    sets = ["test"]
+    sets = ["train", "val", "test"]
     for s in sets:
         video_root = fr"C:\Users\seman\Desktop\clg\2nd_sem\research_practicum\code\data\clips\{s}"
         image_root = fr"C:\Users\seman\Desktop\clg\2nd_sem\research_practicum\code\data\images\{s}"
