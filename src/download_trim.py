@@ -93,6 +93,5 @@ def process_split(split_name):
 
 # Run for all splits
 if __name__ == "__main__":
-    #for split in ["train", "val", "test"]:
-    for split in ["test"]:
+    for split in ["train", "val", "test"]:
         process_split(split)
